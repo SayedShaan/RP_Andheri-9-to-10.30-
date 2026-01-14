@@ -1,0 +1,38 @@
+WAP In R to accept Celsius and convert into fahrenheit
+WAP in R to accept meter from user and convert into kilometer and centimerters
+WAP in R to accept three subject marks from user and display percentage
+WAP in R to accept three number and display average 
+WAP in R to calculate area of circle  
+
+
+
+#WAP In R to accept Celsius and convert into fahrenheit
+Celsius <- as.numeric(readline("Enter the temperature in celsius:"))
+fahrenheit<- Celsius*9/5+32
+cat("Temperature in Fahrenteit:", fahrenheit, "\n") 
+
+#WAP in R to accept meter from user and convert into kilometer and centimerters
+meters <- as.numeric(readline("Enter distance in meters: "))
+kilometers <- meters / 1000
+centimeters <- meters * 100
+cat("Distance in kilometers:", kilometers, "km\n")
+cat("Distance in centimeters:", centimeters, "cm\n")
+
+#WAP in R to accept three subject marks from user and display percentage
+sub1 <- as.numeric(readline("Enter the first number :"))
+sub2 <- as.numeric(readline("Enter the second number :"))
+sub3 <- as.numeric(readline("Enter the third number :"))
+percentage <- (sub1+sub2+sub3)/300*100
+cat("Percentage:", percentage, "%\n")
+
+#WAP in R to accept three number and display average 
+num1 <- as.numeric(readline("Enter first number:"))
+num2 <- as.numeric(readline("Enter second number:"))
+num3 <- as.numeric(readline("Enter third number:"))
+average <- mean(c(num1,num2,num3))
+cat("Average:", average, "\n")
+
+#WAP in R to calculate area of circle
+radius <- as.numeric(readline("Enter the radius:"))
+area <- pi*radius^2
+cat("Area of the Circle:",area,"\n")  
