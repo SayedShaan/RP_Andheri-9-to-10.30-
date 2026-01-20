@@ -1,0 +1,28 @@
+WAP in R to accept basic salary from user and calculate gross salary 
+Basic Salary>=20000 then HRA= 60%, DA= 70%
+Basic Salary>=15000 then HRA= 65%, DA= 75%
+Basic Salary>=10000 then HRA= 70%, DA= 80%
+Basic Salary<=10000 then HRA= 80%, DA= 90%
+
+Gross salary = Basic Salary + HRA +DA
+
+WAP in R to accept percentage from user and print grade
+
+Per>=75 then Grade A
+Per>=65 then Grade B
+Per>=55 then Grade C
+Per>=45 then Grade D
+Per>=35 then Grade E
+Per< 35 then Grade F
+
+
+WAP in R to accept months number from the user and print months name 
+
+WAP in R to accept three subject marks from user and calculate percentage if 
+percentage>=50 then print pass else print fail 
+
+WAP in R to print 1 to n where n is user entered value
+
+WAP in R to print n to 1 where n is user entered value
+
+WAP in R to print all odd number between 1 to 10
