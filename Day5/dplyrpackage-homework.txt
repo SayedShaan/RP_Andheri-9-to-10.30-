@@ -1,0 +1,36 @@
+Q1)WAP in R to create following data fram  customers of shopping date: 
+
+Customers
+	-customerid
+	-first_name
+	-last_name
+	-amount
+	-gender
+	-date
+
+Display all customers
+Display Customer firstname, lastname and amount
+Display Customerid, firstname and date of shopping 
+Display Customerid, firstname amount and date of shopping 
+Display customer details without gender column
+Add fullname column
+Calculate total amount Column(2% GST on Existing amount column) 
+Display all the customer whose amount is greater than Rs500
+Display all the customer whose gender is male  amount is greater than Rs500
+Display all the customer whose date is between 2019 to 2020
+
+
+ Q2)WAP in to create folowing data frame 
+Department 
+deptid (1,2,3)
+deptname("hr","sales","admin")
+
+Employees
+empId
+empname
+salary
+deptid 
+
+Display employees details with their department detail
+Display employees who is working in hr department
+Display department wise sum in salary

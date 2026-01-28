@@ -1,0 +1,23 @@
+Dplyr Package
+
+	A package that helps transform tabular data:
+	library(dplyr)
+
+	Dplyr Function:
+	
+	1) Select 
+		select(datafram,column1,column2)
+		select(datafram,-column2)
+		select(datafram,column1:column3)
+		select(datafram,constrains("String_value"))
+		select(datafram,Start_with("String_value"))
+		select(datafram,end_with("String_value"))
+		select(datafram,matches("String_value"))
+		select(datafram,everything())
+
+	2) Filter	
+		filter(datafram,condition)
+		filter(datafram,condition,,condition2)
+
+	You can use all comparison operator 	
+	   eg, >,<,>=,<=,==,!=,%in%
