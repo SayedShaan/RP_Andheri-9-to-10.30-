@@ -1,0 +1,18 @@
+Apply Family Function  for all the 
+
+	v <- c(2,3,1,4,5)
+	
+	for(i in 1:5){
+		if(v[i]%/%2==0
+	}
+
+Apply Family Function
+	
+	v <- c(2,3,1,4,5)
+	
+	1)apply	 - for any two formats eg.matrix or dataframe
+	2)lapply - use for vector operations - lapply produces list
+	3)sapply - use for vector operation - sapply produces vector
+	4)tapply - tapply gives the results after grouping the data 
+	5)mapply
+	6)vapply

@@ -1,0 +1,40 @@
+Apply Family Function
+
+1) Apply 
+2) Lapply
+3) Sapply
+4) Tapply
+5) Mapply
+6) Vapply
+
+WAP in R to Create excel file 
+
+employeeid,employeename,salary,department
+123,sameer,45000,sales
+124,sagar,65000,hr
+125,satish,55000,hr
+126,sana,89000,sales
+
+
+1)Read Excel File 
+2)Display all the employees
+3)Display employees who are working is sales department
+4)Display department wise total salary
+5)Display department wise max salary
+6)Display annual salary 
+
+
+WAP in R to Create excel file:
+
+studentid,studentname,sybject1,subject2,subject3
+123,syresh,89,98,99
+124,ramesh,79,58,89
+125,hitesh,69,88,79
+126,naresh,89,78,89
+127,paresh,69,68,56
+
+
+1)Read excel files.
+2)Display all the student details
+3)Display total marks for all the students
+4)Display percentage all students

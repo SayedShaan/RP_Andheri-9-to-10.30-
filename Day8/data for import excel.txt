@@ -1,0 +1,6 @@
+
+employeeid,employeename,salary,department
+123,sameer,45000,sales
+124,sagar,65000,hr
+125,satish,55000,hr
+126,sana,89000,sales

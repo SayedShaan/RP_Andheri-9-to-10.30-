@@ -1,0 +1,27 @@
+WAP in R to Create following dataframe.
+	Employees
+		employeeid
+		employeename 
+		salary
+		dob
+		doj
+		departmentname
+	Hint: Date format 'yyyy-mm-dd'
+
+Display employees woring in hr department
+Display employees whose salary is between 50000 and 90000
+Display employees who joined before corona virus pandemic
+Display employees whose name starts with 'sa'
+
+	EmployeeLeaves
+		employeeid
+		emplyeename 
+		from 
+		to 
+		reason 
+		leavetype(PL,SL)
+
+Display employees whose leave type is PL
+Display employees whose reason is empty
+Display employees whose leavetype is empty
+Displat employees from whose leave between dec-2019 to jan-2020

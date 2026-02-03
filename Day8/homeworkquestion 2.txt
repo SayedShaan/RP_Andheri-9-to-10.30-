@@ -1,0 +1,6 @@
+studentid,studentname,sybject1,subject2,subject3
+123,syresh,89,98,99
+124,ramesh,79,58,89
+125,hitesh,69,88,79
+126,naresh,89,78,89
+127,paresh,69,68,56

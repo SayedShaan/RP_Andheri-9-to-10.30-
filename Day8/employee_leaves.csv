@@ -1,0 +1,10 @@
+employee_id,employeename,from_date,to_date,reason,leavetype
+1,Shaan,20-12-2020,05-01-2021,,PL
+2,Saashvi,06-05-2020,10-05-2020,sick,SL
+3,Ravi,12-10-2019,13-10-2019,,
+4,Ankit,01-01-2019,01-02-2019,brother marrrige,PL
+5,Rishi,08-02-2021,20-02-2021,,PL
+6,Sahil,10-03-2021,15-03-2021,sick,SL
+7,Prishi,24-08-2022,29-08-2022,,PL
+8,Arpita,06-02-2022,09-02-2022,,PL
+9,Ankita,09-07-2020,15-07-2020,fever,SL
