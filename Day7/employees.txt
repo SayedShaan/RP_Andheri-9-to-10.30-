@@ -1,0 +1,6 @@
+Employeeid	Employeename	Salary
+01               Vijay         15000
+02               Ankit         16000
+03               Ravi          15000
+04               Prachi        18000
+05               Saad          17000

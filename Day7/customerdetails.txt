@@ -1,0 +1,6 @@
+custid,custname,custemail
+101,sameer,sameer@gmail.com
+102,marisha,marisha@gmail.com
+103,vijay,vijay@gmail.com
+104,ankit,ankit@gmail.com
+105,ravi,ravi@gmail.com
