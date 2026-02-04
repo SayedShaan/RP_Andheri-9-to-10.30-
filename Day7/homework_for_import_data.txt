@@ -1,0 +1,9 @@
+Create a CSV files to store  following data:
+
+	Customer 	
+	-custid
+	-custname
+	-custemail
+
+Read csv file and rename column name to cust_name, cust_email and drop custid column 
+In addition and new column customer_mobile

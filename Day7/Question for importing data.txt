@@ -1,0 +1,7 @@
+Question 1: From given data set print first and last five rows,(R & D)
+Question 2: Find the most expensive car company name #max function
+Question 3: Print all the Toyota Car details #filter function
+Question 4: Count total cars per company #group_by function
+Question 5: Find each company's higesht prise car #group_by function
+Question 6: Find the average milage of each car making company #group_by function
+Question 7: Sort all the cars by price column #arrange function
