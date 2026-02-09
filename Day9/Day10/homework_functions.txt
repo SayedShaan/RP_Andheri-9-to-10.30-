@@ -1,0 +1,6 @@
+WAP in R to Create following Functions:
+
+1) sum(a,b,c)
+2) average(a,b,c,d)
+3) mymax(a,b)
+4) mymin(a,b,c)
