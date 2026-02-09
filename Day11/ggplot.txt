@@ -1,0 +1,72 @@
+##ggplot2
+##Grammer of Graphics
+
+#Data	     -The data-set which we would want to plot a graph
+##Aesthetics - The Metrics on which we plot our data 
+##Geometry   -Visual Elements on plot the data 
+##Face 	     - Graphs by which we divide data 
+
+
+install.packages("ggplot2")
+library("ggplot2")
+
+
+#color aesthetic 
+
+table(iris)
+ggplot(data=iris,
+	aes(y=Sepal.Length,
+	    x=Petal.Length,
+	    col=Species))+ geom_point()
+	
+#Shape aesthetic
+ggplot(data=iris,
+	aes(y=Sepal.Length,
+	    x=Petal.Length,
+	    shape=Species))+ geom_point()
+
+
+#Shape and color aesthetic
+ggplot(data=iris,
+	aes(y=Sepal.Length,
+	    x=Petal.Length,
+	    shape=Species,
+            col=Species))+ geom_point()
+
+#Histogram
+
+ages = data.fram(
+	"age" = c(2,3,54,56,
+		  76,65,34,43,41,
+		  12,15,19,90,87,
+		  86,76,92,51,13,28
+
+##
+ggplot(data=ages,aes(x=age))+geom_histogram(bin=10)
+ggplot(data=ages,aes(age))+geom_histogram(bin=10,fill="blue")
+ggplot(data=ages,aes(age))+geom_histogram(binwidth=10,bins=10,fill="blue",color="white")
+ggplot(data=ages,aes(age,fill=age>=50))+geom_histogram(binwidth=10,bins=10,fill="blue",color="white")
+
+#
+ggplot(data=ages,aes(age,fili=age>50))+geom_histogram(bins=10)
+
+
+#Categorical Variable 
+shopping <- data.frame(
+	"name"=c("sagar","marisha","ankita","sana","ravi"),
+	"amount=c(2000,25000,21801,1385,570),
+	"gender"=c("male","female","female","female","male")
+)
+
+ggplot(shopping,aes(x=gender,fill=gender))+geom_bar()
+
+ggplot(shopping,aes(x="",y=amount,fill=gender))+geom_bar(width=1,stat = "identity")
+ggplot(shopping,aes(x=gender,y=amount,fill=gender))+geom_bar(width=0.5,stat = "identity")
+
+
+
+
+
+
+
+	
